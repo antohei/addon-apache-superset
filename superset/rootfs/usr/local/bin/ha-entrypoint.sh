@@ -159,6 +159,9 @@ SUPERSET_WEBSERVER_PORT = 8088
 SUPERSET_WEBSERVER_TIMEOUT = 120
 ENABLE_PROXY_FIX = True
 
+# Disable Flask compression
+COMPRESS_REGISTER = False
+
 # Worker configuration (low memory footprint)
 SUPERSET_WORKERS = 2
 
